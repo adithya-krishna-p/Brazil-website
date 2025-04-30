@@ -49,7 +49,7 @@ function LoadTeam(data){
                             '</div>'+
                             '<div class="player-details text-center bg-white">'+
                               '<h1 class="m-0 pt-2 px-2">'+data[i].players[j].name+'</h1>'+
-                              '<p class="text-secondary">'+data[i].players[j].club+'</p>'+
+                              '<p class="text-primary">'+data[i].players[j].club+'</p>'+
                             '</div>'+ 
                           '</div>'
     }
