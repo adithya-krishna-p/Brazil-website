@@ -1,0 +1,231 @@
+:root{
+    --theme-green : #04aa6d;
+    --theme-green-light : #38c692;
+    --theme-yellow : #ffe500;
+    --theme-yellow-light : #f1e597;
+    --dark-theme : #212529;
+    --dark-theme-light : #3a3b3b; 
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(./font/BebasNeue-Regular.ttf);
+}
+body{
+    font-family:"BebasNeue";
+    background-color: #f9f9f9;
+}
+a {
+    text-decoration: none;
+}
+#team-logo{
+    width: 60px;
+    height: auto;
+    transition: 0.3s;
+}
+.navbar {
+    position:fixed ;
+    top: 0;
+    z-index: 100;
+}
+.nav-items > li {
+    list-style: none;
+    padding : 10px 3%;
+    font-size: 22px;
+}
+.nav-items  a {
+    color:white;
+}
+.nav-items > li:hover {
+    background-color: var(--theme-green-light);
+    color : var(--dark-theme)
+}
+.nav-items li:hover a{
+    color: var(--dark-theme);
+}
+.banner{ 
+    width: 100%;
+    background-color: #f2e16c;
+    margin-top: 150px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.banner-photo img{
+    width: 100%;
+    height: auto;
+}
+.banner-gradient{
+    height: 100%;
+    width: 100%;
+    background: rgb(33,37,41);
+    background: linear-gradient(90deg, rgba(33,37,41,1) 25%, rgba(33,37,41,0) 60%);
+    position: absolute;
+}
+.banner-text {
+    font-size: 200px;
+    line-height: 150px;
+    transform: skew(0deg, 353deg)
+}
+.next-match{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.sub-title{
+    color: var(--theme-yellow);
+}
+.green-line{
+    width: 100%;
+    height: 8px;
+    background-color: var(--theme-green);
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.sub-text {
+    position: absolute;
+    margin-top: -15px;
+    background-color: #f9f9f9;
+    padding: 0 10px;
+}
+.history-img img{
+    width: 100%;
+    height: auto;
+}
+.squad-background {
+    width: 100%;
+    height: auto;
+    background-color: var(--theme-yellow);
+    background-size: cover;
+    position: relative;
+}
+.squad-background img {
+    width: 80%;
+    padding: 20px;
+}
+.player-card-container{
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.img-box{
+    overflow:hidden;
+    background-image: url(./assets/yello-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#player-img{
+    width: 12rem;
+    transition: 0.5s;
+}
+.player-card-container:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.player-card-container:hover #player-img {
+    transform: scale(1.15);
+    transition: 0.6s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.news-box{
+    height: auto;
+    border: 1px solid #333;
+    background-color: white;
+    transition: 0.2s;
+}
+.news-box:hover{
+    transition: 0.3s;
+    transform: scale(1.03);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.news-box img{
+    width: 100%;
+    height: auto;
+}
+.community-box{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+}
+.community-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.community-container p{
+    text-align: center;
+}
+.join-community-box{
+    width: 100%;
+    border-radius: 10px;
+    background-image: url(./assets/ground.png);
+    background-size: cover;
+}
+.join-community-box img{
+    width: 55%;
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+.join-btn{
+    background-color: var(--theme-green-light);
+    padding: 10px 80px;
+    border-radius:30px;
+    transition:0.2s;
+}
+.join-btn:hover {
+    transition:0.3s;
+    transform: scale(1.08);
+}
+footer{
+    background-color: var(--dark-theme);
+    margin-top: 20px;
+    padding:5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .squad-background img {
+        width: 100%;
+        padding: 10px;
+    }  
+    .banner-text {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .banner{
+        margin-bottom: 30px;
+    } 
+    .next-match{
+        height: 25%;
+    }
+    .join-community-box{
+        position: relative;
+    }
+    .join-community-box img{
+        margin-top: 150px;
+        width: 95%;
+    }
+    .community-box{
+        margin-top: 0px;
+    }
+    .community-container{
+        justify-content: flex-start;
+        padding-top: 10px;
+    }
+    .community-container p{
+        font-size: 10px;
+    }
+    .join-btn{
+        padding: 2px 20px;
+        font-size: 18px;
+    }
+}

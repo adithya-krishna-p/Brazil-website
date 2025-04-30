@@ -1,0 +1,168 @@
+[
+    {
+        "position": "coach",
+        "players" : [
+            {
+                "name" : "Tite",
+                "club" : "Brazil",
+                "image" : "./assets/team/tite.png"   
+            }
+        ]
+    },
+    {
+        "position": "keepers",
+        "players" : [
+            {
+                "name" : "Weverton",
+                "club" : "Palmeiras",
+                "image" : "./assets/team/weverton.png"   
+            },
+            {
+                "name" : "Alisson Becker",
+                "club" : "Liverpool",
+                "image" : "./assets/team/alison.png"   
+            },
+            {
+                "name" : "Ederson Moraes",
+                "club" : "Palmeiras",
+                "image" : "./assets/team/ederson.png"   
+            }
+
+        ]
+    },
+    {
+        "position": "defenders",
+        "players" : [
+            {
+                "name" : "Dani Alves",
+                "club" : "Club Universidad Nacional",
+                "image" : "./assets/team/dani alves.png"   
+            },
+            {
+                "name" : "Thiago Silva",
+                "club" : "Chelsea",
+                "image" : "./assets/team/thiago.png"   
+            },
+            {
+                "name" : "Alex Sandro",
+                "club" : "Juvantus",
+                "image" : "./assets/team/alex sandro.png"   
+            },
+            {
+                "name" : "Danilo",
+                "club" : "Juvantus",
+                "image" : "./assets/team/danilo.png"   
+            },
+            {
+                "name" : "Marquinhos",
+                "club" : "Paris Saint-Germain",
+                "image" : "./assets/team/marguinos.png"   
+            },
+            {
+                "name" : "Alex Telles",
+                "club" : "Sevilla",
+                "image" : "./assets/team/telles.png"   
+            },
+            {
+                "name" : "Eder Militiao",
+                "club" : "Real Madrid",
+                "image" : "./assets/team/militiao.png"   
+            },
+            {
+                "name" : "Gleison Bremer",
+                "club" : "Juvantus",
+                "image" : "./assets/team/bremer.png"   
+            }
+
+        ]
+    },
+    {
+        "position": "Midfielders",
+        "players" : [
+            {
+                "name" : "Casemiro",
+                "club" : "Manchester United",
+                "image" : "./assets/team/casemiro.png"   
+            },
+            {
+                "name" : "Everton Ribeiro",
+                "club" : "Flamengo",
+                "image" : "./assets/team/ribeiro.png"   
+            },
+            {
+                "name" : "Fred",
+                "club" : "Manchester United",
+                "image" : "./assets/team/fred.png"   
+            },
+            {
+                "name" : "Fabinho",
+                "club" : "Liverpool",
+                "image" : "./assets/team/fabinho.png"   
+            },
+            {
+                "name" : "Lucas Paqueta",
+                "club" : "West Ham United",
+                "image" : "./assets/team/paquata.png"   
+            },
+            {
+                "name" : "Bruno Guimaraes",
+                "club" : "Newcastle United",
+                "image" : "./assets/team/guimaraes.png"   
+            }
+        ]
+    },
+    {
+        "position": "forwards",
+        "players" : [
+            {
+                "name" : "Neymar",
+                "club" : "Paris Saint Germain",
+                "image" : "./assets/team/neymar.png"   
+            },
+            {
+                "name" : "Gabriel Jesus",
+                "club" : "Arsenal",
+                "image" : "./assets/team/jesus.png"   
+            },
+            {
+                "name" : "Richarlison",
+                "club" : "Tottenham Hotspur",
+                "image" : "./assets/team/richarlison.png"   
+            },
+            {
+                "name" : "Raphinha",
+                "club" : "Barcelona",
+                "image" : "./assets/team/raphinha.png"   
+            },
+            {
+                "name" : "Pedro",
+                "club" : "Flamengo",
+                "image" : "./assets/team/pedro.png"   
+            },
+            {
+                "name" : "Vinicius Junior",
+                "club" : "Real Madrid",
+                "image" : "./assets/team/vini.png"   
+            },
+            {
+                "name" : "Rodrygo",
+                "club" : "Real Madrid",
+                "image" : "./assets/team/rodrygo.png"   
+            },
+            {
+                "name" : "Antony",
+                "club" : "Manchester United",
+                "image" : "./assets/team/antony.png"   
+            },
+            {
+                "name" : "Gabriel Martinelli",
+                "club" : "Arsenal",
+                "image" : "./assets/team/martinelli.png"   
+            }
+
+        ]
+    }
+
+
+
+]
